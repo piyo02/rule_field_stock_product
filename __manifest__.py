@@ -1,14 +1,16 @@
 {
-    'name': 'Template Addon',
+    'name': 'Rule for field Stock Product',
     'author': 'technoindo.com',
     'category': 'hidden',
     'version': '10.0',
     'summary': 'Summary the addon.',
-    'description': '''Description the addon'''
+    'description': '''hidden field stock product to group selected'''
                    ,
-    'depends': ['base'],
+    'depends': ['product', 'sale'],
     'data': [
-        ''
+        'views/product_template_view_inherit.xml',
+        'views/sale_order_view_inherit.xml',
+        'views/stock_product_template_view_inherit.xml'
     ],
     'images': [''],
     'auto_install': False,
