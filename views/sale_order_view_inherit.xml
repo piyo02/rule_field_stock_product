@@ -8,7 +8,7 @@
             <field name="arch" type="xml">
                 <xpath expr="//group[@name='sale_margin_grp']" position="replace">
                     <group name="sale_margin_grp">
-                        <field name="margin" groups="sales_team.group_sale_salesman_all_leads,sales_team.group_sale_manager"/>
+                        <field name="margin" groups="purchase.group_purchase_manager"/>
                     </group>
                 </xpath>
             </field>
