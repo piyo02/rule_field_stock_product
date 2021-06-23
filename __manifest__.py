@@ -6,7 +6,7 @@
     'summary': 'Summary the addon.',
     'description': '''hidden field stock product to group selected'''
                    ,
-    'depends': ['product', 'sale'],
+    'depends': ['product', 'sale', 'hpp_stock_quant', 'sale_margin'],
     'data': [
         'views/product_template_view_inherit.xml',
         'views/sale_order_view_inherit.xml',
